@@ -40,21 +40,19 @@ if (name == "Tjocka Caspian")
     Console.WriteLine("Du har valt den Tjocka Caspian");
     Console.WriteLine("Tjocka Caspians styrker är:\n Super snabb på att äta:\n kiddnappar äldre kvinnor:\n är en fullis");
 
-    Console.WriteLine("Välj ditt vapen:\n Vita pulvret:\n flasköppnare ");
+    Console.WriteLine("Välj ditt vapen:\n Vita pulvret:\n Flasköppnare ");
     string wepond = Console.ReadLine();
     if (wepond == "Vita pulvret")
     {
         Console.WriteLine("Tjocka Caspian jobbade på en club. Sen gick han till tåan för att dra en lina och plötligt sniffa han in för mycket av det vita pulvret och fick överdoss");
     }
-
-
-
+    else if (wepond == "Flasköppnare")
+    {
+        Console.WriteLine("Tjocka Caspian hade sin lilla flasköppnare han sprang efter en äldre kvinna som han vill kiddnappa men han snubla på ett bannanskal och fick hans lilla flasköppnare rak in hjärtat. ");
+    }
+    else
+    {
+        Console.WriteLine("VA. Fattar inte vad du skriver");
+    }
 }
-
-
-
-
-
-
-
 Console.ReadLine();
